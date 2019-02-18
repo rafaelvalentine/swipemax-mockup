@@ -1,0 +1,146 @@
+/* 
+==========================================================================
+	General
+========================================================================== 
+*/
+
+#timeline .card {
+    margin-bottom: 20px;
+}
+
+#timeline .card-text {
+    font-size: .7rem;
+    color: #757575;
+}
+
+#timeline img {
+    border-radius: 50px;
+    margin: 0 10px;
+}
+
+#timeline ul {
+    list-style: none;
+    display: flex;
+    width: 100%;
+    margin-left: -35px;
+    color: #01e802;
+}
+
+#timeline ul li {
+    margin-right: 10px;
+}
+
+#timeline p {
+    text-transform: capitalize;
+    text-align: justify;
+}
+
+
+/* 
+==========================================================================
+	Message
+========================================================================== 
+*/
+
+#message {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+#message .message-info {
+    display: flex;
+}
+
+#message .message-info .message-info-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+#message .message-info .message-info-content p {
+    margin: 0;
+    text-align: left;
+    font-size: 1rem;
+}
+
+#message .message-info .message-info-content span {
+    font-size: .8rem;
+    color: #888888;
+}
+
+#message .response {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+/* 
+==========================================================================
+	Posts
+========================================================================== 
+*/
+
+#post .post-info {
+    display: flex;
+}
+
+#post .post-info .post-info-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+#post .post-info .post-info-content p {
+    margin: 0;
+    text-align: left;
+    font-size: 1rem;
+}
+
+#post .post-info .post-info-content p small {
+    font-size: .7rem;
+    color: #888888;
+}
+
+#post .post-info .post-info-content p i {
+    font-size: .6rem;
+}
+
+#post .post-info .post-info-content span {
+    font-size: .8rem;
+    color: #888888;
+}
+
+#post .response ul li:nth-child(1n+2) {
+    color: #000;
+}
+
+#post .social-media ul {
+    justify-content: flex-end;
+    margin-right: -55px;
+}
+
+#post .social-media ul li {
+    margin-right: 0;
+    margin-left: 10px;
+}
+
+#post .social-media ul li img {
+    width: 20px;
+    height: 20px;
+}
+
+#post .add-comment {
+    border-top: 2px solid #888888;
+    display: flex;
+    justify-content: flex-end;
+    color: #757575;
+    text-transform: uppercase;
+}
+
+#post .add-comment p {
+    text-transform: uppercase;
+    font-size: .9rem;
+}

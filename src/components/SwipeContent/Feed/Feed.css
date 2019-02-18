@@ -1,0 +1,112 @@
+/* 
+==========================================================================
+	General
+========================================================================== 
+*/
+
+#feed img {
+    border-radius: 50px;
+    width: 25px;
+    height: 25px;
+}
+
+#feed button {
+    border-radius: 20px;
+    height: 15px;
+    font-size: .6rem;
+    margin: 0;
+    background: transparent;
+    border: 1px solid #01e802;
+    color: #01e802;
+    text-align: center;
+    line-height: 1;
+}
+
+#feed ul {
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    font-size: .6rem;
+    margin-left: -50px;
+}
+
+
+/* 
+==========================================================================
+	Follow
+========================================================================== 
+*/
+
+.follow-content {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0 5px;
+}
+
+
+/* .follow-body {
+    border: 1px solid rgba(138, 138, 138, .3);
+} */
+
+.follow-content p {
+    margin: 0;
+    padding: 0;
+    font-size: .7rem;
+    text-transform: capitalize;
+    font-weight: 500;
+    /* text-align: left; */
+}
+
+.follow-content span {
+    font-size: .5rem;
+    color: #8a8a8a;
+    margin-top: -10px;
+}
+
+.follow .info {
+    border-top: 1px solid rgba(138, 138, 138, .2);
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+
+/* 
+==========================================================================
+Experts
+========================================================================== 
+*/
+
+.experts-content {
+    border: 1px solid rgba(138, 138, 138, .3);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    margin-bottom: 20px;
+}
+
+.experts-content p {
+    text-align: center;
+    margin: 5px;
+    font-size: 1.5rem;
+    color: rgb(37, 164, 255);
+}
+
+.experts-content p span {
+    font-weight: 300;
+    color: #000;
+    font-size: 1.5rem;
+}
+
+.experts-content .question-span {
+    margin: 0 auto 5px;
+    font-size: .7rem;
+}
+
+.experts-content .question-span i {
+    font-size: .4rem;
+    color: #01e802;
+}

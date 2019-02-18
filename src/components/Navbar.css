@@ -1,0 +1,193 @@
+/* 
+==========================================================================
+	 General
+========================================================================== 
+*/
+
+#navbar-list {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.navbar-logo {
+    width: 50px;
+    height: 50px;
+}
+
+.new-post_button {
+    height: 30px;
+    line-height: 1;
+    border-radius: 20px;
+    width: 150px;
+    margin-top: 10px;
+}
+
+.nav-link {
+    display: block;
+    padding: 1rem;
+}
+
+
+/* 
+==========================================================================
+	 Messages-users
+========================================================================== 
+*/
+
+.navbar-messages-content {
+    display: flex;
+}
+
+.navbar-messages-content img {
+    width: 25px;
+    height: 25px;
+    border-radius: 50px;
+    margin-right: 5px;
+}
+
+.navbar-messages-content-body {
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar-messages-content-body p {
+    font-size: .8rem;
+    margin: 0;
+    text-transform: capitalize;
+}
+
+.navbar-messages-time {
+    font-size: .5rem;
+}
+
+.navbar-messages-content-body span {
+    font-size: .5rem;
+    color: #8a8a8a;
+}
+
+.navbar-messages-content-body-text {
+    font-size: .65rem;
+}
+
+
+/* 
+==========================================================================
+	 Messages-notification
+========================================================================== 
+*/
+
+.notification-messages-content {
+    display: flex;
+    /* flex-direction: column; */
+}
+
+.notification-messages-content p {
+    margin: 0;
+}
+
+.notification-messages-content img {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+.notification-messages-time {
+    font-size: .55rem;
+}
+
+
+/* 
+==========================================================================
+	User Menu
+========================================================================== 
+*/
+
+#usermenu-dropdown {
+    background: none;
+    border: none;
+    color: rgb(37, 164, 255);
+}
+
+#usermenu-dropdown-list {
+    background: none;
+    border: none;
+    color: rgb(37, 164, 255);
+}
+
+.usermenu-dropdown-list .dropdown-item {
+    text-transform: capitalize;
+    font-size: .8rem;
+}
+
+.usermenu-dropdown-list .dropdown-item i {
+    margin: 0 5px;
+}
+
+
+/* 
+==========================================================================
+	 Modal
+========================================================================== 
+*/
+
+.modal-header {
+    border: none;
+}
+
+#modal-form label {
+    font-size: .75rem;
+    color: #8a8a8a;
+    opacity: .7;
+}
+
+#modal-form input {
+    border: none;
+    border-bottom: 1px solid rgba(138, 138, 138, .3);
+}
+
+.modal-footer {
+    border: transparent;
+}
+
+.modal-footer .btn-success {
+    width: 150px;
+}
+
+
+/* 
+==========================================================================
+	 Tabs
+========================================================================== 
+*/
+
+.nav-tabs {
+    border: transparent;
+}
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link {
+    color: #01e802;
+    background-color: #fff;
+    border: none;
+    border-bottom: 2px solid#01e802;
+}
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+    color: #000;
+    background-color: #fff;
+    border: none;
+}
+
+@media screen and (min-width: 360px) and (max-width: 800px) {
+    .new-post_button {
+        width: 100%;
+    }
+    .dropdown {
+        margin-left: -10px;
+    }
+    .btn-toolbar {
+        width: 100%;
+    }
+}

@@ -1,0 +1,190 @@
+/* 
+==========================================================================
+	 General
+========================================================================== 
+*/
+
+#foryou {
+    border: 1px solid rgba(138, 138, 138, .3);
+}
+
+#foryou .foryou-header {
+    display: flex;
+    background-color: #f4f4f4;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 5px;
+}
+
+#foryou img {
+    width: 30px;
+    height: 30px;
+}
+
+#foryou p {
+    text-align: justify;
+    padding-right: 10px;
+}
+
+.header {
+    display: flex;
+    background-color: #fff;
+    justify-content: space-between;
+}
+
+.header p {
+    margin: 0 5px;
+}
+
+.header i {
+    margin: 5px 5px 0;
+    color: rgb(37, 164, 255);
+    font-size: .55rem;
+}
+
+
+/* 
+==========================================================================
+	Session
+========================================================================== 
+*/
+
+.foryou-session,
+.foryou-insight,
+.foryou-questions {
+    border-bottom: 1px solid rgba(138, 138, 138, .3);
+    margin: 0 0 10px;
+    padding: 0 5px 10px;
+}
+
+.foryou-session .session-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.foryou-session .session-content-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: flex-start;
+    flex-wrap: nowrap;
+}
+
+.foryou-session .session-content img {
+    border-radius: 50px;
+    margin-right: 10px;
+}
+
+.foryou-session .session-content p {
+    margin: 0;
+    /* margin-left: 5px; */
+    font-size: .8rem;
+    text-transform: capitalize;
+    font-weight: 500;
+    /* text-align: left; */
+}
+
+.foryou-session .session-content span {
+    font-size: .6rem;
+    color: #8a8a8a;
+}
+
+.foryou-session .session-content .session-close {
+    font-size: 12px;
+    color: #8a8a8a;
+    opacity: .45;
+}
+
+.foryou-session .session-content .session-close:hover {
+    font-size: 12px;
+    color: #000;
+    opacity: 1;
+}
+
+
+/* 
+==========================================================================
+	Insight
+========================================================================== 
+*/
+
+.foryou-insight .insight-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.foryou-insight .insight-content-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.foryou-insight .insight-content img {
+    border-radius: 50px;
+}
+
+.foryou-insight .insight-content p {
+    margin: 0;
+    font-size: .8rem;
+    text-transform: capitalize;
+    font-weight: 500;
+    /* text-align: left; */
+}
+
+.foryou-insight .insight-content span {
+    font-size: .6rem;
+    color: #8a8a8a;
+}
+
+.foryou-insight .insight-content .insight-close {
+    font-size: 12px;
+    color: #8a8a8a;
+    opacity: .45;
+}
+
+.foryou-insight .insight-content .insight-close:hover {
+    font-size: 12px;
+    color: #000;
+    opacity: 1;
+}
+
+.foryou-insight .insight-text {
+    margin: 0;
+    padding: 0;
+    font-size: .6rem;
+}
+
+
+/* 
+==========================================================================
+	Questions
+========================================================================== 
+*/
+
+.foryou-question .question-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.foryou-question .question-content p {
+    margin: 0;
+    font-size: .6rem;
+    text-transform: capitalize;
+    font-weight: 500;
+    /* text-align: left; */
+}
+
+.foryou-question .question-content .question-close {
+    font-size: 12px;
+    color: #8a8a8a;
+    opacity: .45;
+}
+
+.foryou-question .question-content .question-close:hover {
+    font-size: 12px;
+    color: #000;
+    opacity: 1;
+}

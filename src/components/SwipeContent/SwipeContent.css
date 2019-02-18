@@ -1,0 +1,31 @@
+/* 
+==========================================================================
+General
+========================================================================== 
+*/
+
+@media screen and (min-width: 360px) and (max-width: 800px) {
+    #swipecontent .first,
+    #swipecontent .third {
+        order: 1;
+    }
+    #message {
+        margin: 10px 0 0;
+    }
+    .card {
+        margin: 10px 0 0;
+    }
+}
+
+@media screen and (min-width: 801px) and (max-width: 1000px) {
+    #swipecontent .first,
+    #swipecontent .third {
+        order: 1;
+    }
+    #message {
+        margin: 10px 0 0;
+    }
+    .card {
+        margin: 10px 0 0;
+    }
+}
