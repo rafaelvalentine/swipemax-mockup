@@ -88,7 +88,7 @@ export default class Timeline extends Component {
         views: 104,
         comments:12,
         text:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dignissim cras tincidunt lobortis feugiat vivamus at augue. Lorem dolor sed viverra ipsum nunc aliquet bibendum. Leo a diam sollicitudin tempor. Faucibus nisl tincidunt eget nullam non nisi.',
-        picture:'assets/img/Avatar9.jpg'
+        picture:'assets/img/avatar9.jpg'
       }
     ],
     message:[
@@ -97,7 +97,7 @@ export default class Timeline extends Component {
   date: new Date().toUTCString(),
   likes: 111,
   text:'Hello guys, \n \n  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dignissim cras tincidunt lobortis feugiat vivamus at augue. Lorem dolor sed viverra ipsum nunc aliquet bibendum. Leo a diam sollicitudin tempor. Faucibus nisl tincidunt eget nullam non nisi.',
-  picture:'assets/img/Avatar8.jpg'
+  picture:'assets/img/avatar8.jpg'
 }
     ]
   }
